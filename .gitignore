@@ -1,0 +1,139 @@
+# -*- mode: gitignore; -*-
+
+# ---------------------------
+# BEGIN ignore project files
+# ---------------------------
+
+Most-Recent-Cohorts-All-Data-Elements.csv
+midterm_report.tex
+midterm_report.pdf
+midterm_report.html
+midterm_report_files/bootstrap-*/*
+midterm_report_files/jquery-*/*
+midterm_report_files/navigation-*/*
+midterm_report_files/figure-html/
+
+# ---------------------------
+# BEGIN ignore basic files
+# ---------------------------
+
+# all files starting with . or ~
+.*
+~*
+
+# os generated files
+*.lnk
+*.stackdump
+[Dd]esktop.ini
+ehthumbs.db
+ehthumbs_vista.db
+Icon
+Network Trash Folder
+Temporary Items
+Thumbs.db
+$RECYCLE.BIN/
+
+# log files and databases
+*.log
+*.sql
+*.sqlite
+
+# compiled files
+*.class
+*.com
+*.dll
+*.exe
+*.o
+*.so
+
+# archived files
+*.7z
+*.bzip
+*.bz2
+*.cab
+*.gz
+*.jar
+*.lzma
+*.rar
+*.tgz
+*.zip
+*.xz
+
+# packing-only formats
+*.iso
+*.tar
+
+# package management formats
+*.dmg
+*.deb
+*.egg
+*.gem
+*.msi
+*.msm
+*.msp
+*.rpm
+*.xpi
+
+# generic project directories
+build/
+dist/
+downloads/
+etc/
+lib/
+lib64/
+out/
+parts/
+sdist/
+var/
+tmp/
+
+# ---------------------------
+# BEGIN ignore editor files
+# ---------------------------
+
+# eclipse
+*~.nib
+*.bak
+*.tmp
+local.properties
+
+# emacs
+*~
+\#*\#
+*.elc
+*.rel
+*_flymake.*
+auto-save-list
+flycheck_*.el
+tramp
+auto/
+elpa/
+eshell/
+server/
+
+# rstudio
+*.knit.md
+*.utf8.md
+*_cache/
+cache/
+
+# ---------------------------
+# BEGIN ignore language files
+# ---------------------------
+
+# R
+*-Ex.R
+vignettes/*.html
+vignettes/*.pdf
+*.Rcheck/
+
+# ---------------------------
+# BEGIN Whitelisted Files
+# ---------------------------
+
+# track these files, if they exist
+!.editorconfig
+!.gitattributes
+!.gitignore
+!.github/
+!.travis.yml

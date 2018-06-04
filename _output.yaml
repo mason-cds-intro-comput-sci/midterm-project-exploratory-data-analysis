@@ -1,0 +1,19 @@
+html_document:
+  theme: paper
+  toc: no
+  df_print: kable
+  fig_caption: no
+  number_sections: no
+  smart: yes
+  dev: svg
+pdf_document:
+  toc: false
+  df_print: kable
+  fig_caption: no
+  number_sections: no
+  dev: pdf
+github_document:
+  toc: true
+  toc_depth: 4
+  dev: svg
+  df_print: kable

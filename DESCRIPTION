@@ -1,0 +1,6 @@
+Title: Midterm project
+Date: 2018-06-04
+Depends:
+  R (>= 3.4)
+Imports:
+  tidyverse
