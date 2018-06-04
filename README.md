@@ -1,6 +1,6 @@
 Midterm Project
 ================
-Due: June 13, 2018 @ 10:30am
+Due: June 14, 2018 @ 10:30am
 
 -   [Instructions](#instructions)
 -   [The Dataset](#the-dataset)
