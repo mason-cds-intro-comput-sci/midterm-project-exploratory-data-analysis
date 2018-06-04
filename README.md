@@ -9,6 +9,8 @@ Due: June 14, 2018 @ 10:30am
 -   [Grade](#grade)
 -   [Cleaning and tidying the dataset section](#cleaning-and-tidying-the-dataset-section)
 -   [Exploratory data analysis section](#exploratory-data-analysis-section)
+-   [How to submit](#how-to-submit)
+-   [Cheatsheets](#cheatsheets)
 
 Instructions
 ------------
