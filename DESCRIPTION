@@ -1,6 +1,5 @@
-Title: Midterm project
-Date: 2018-06-04
+Title: Exploratory Data Analysis Midterm Project
 Depends:
-  R (>= 3.4)
+  R (>= 3.5)
 Imports:
   tidyverse

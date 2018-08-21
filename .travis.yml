@@ -1,9 +1,7 @@
 language: r
 cache: packages
-r: 3.4.4
-r_packages:
-- tidyverse
-pandoc_version: 1.19.2.1
+r: 3.5
+pandoc_version: 2.2.1
 repos:
   CRAN: https://cran.rstudio.com
 if: tag IS blank AND branch = master
@@ -14,4 +12,3 @@ notifications:
 script:
 - make midterm_report.pdf
 - make midterm_report.html
-- make midterm_report.md

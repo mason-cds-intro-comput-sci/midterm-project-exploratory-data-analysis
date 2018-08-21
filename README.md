@@ -1,6 +1,9 @@
 Midterm Project
-================
-Due: June 14, 2018 @ 10:30am
+===============
+
+> For the midterm, you will conduct an exploratory data analysis of the U.S. Department of Education’s College Scorecard dataset in teams.
+
+Due: Month Day, Year @ Time
 
 -   [Instructions](#instructions)
 -   [The Dataset](#the-dataset)
@@ -37,14 +40,14 @@ college <- read_csv(
 
 It is highly recommended that, after successfully loading the dataset for the first time, one of the team members compresses the dataset into an rds file and then commits and pushes it to Github.
 
-**This is a large dataset that is over 100 megabytes in size and contains millions of individual cells.** **As such, there is no one right way to approach this project.** **There are many different avenues that you can take, so have fun with it!**
+**This is a large dataset that is over 100 megabytes in size and contains millions of individual cells. As such, there is no one right way to approach this project. There are many different avenues that you can take, so have fun with it!**
 
 Submission guidelines
 ---------------------
 
 Your Midterm Project submission is expected to meet the following guidelines:
 
--   **Your team submission will only be graded if it is on Github and in your team's copy of the midterm project repository.** **Your team must also submit a Pull Request against the `starting` branch.**
+-   **Your team submission will only be graded if it is on Github and in your team's copy of the midterm project repository. Your team must also submit a Pull Request against the `grading` branch.**
 
 -   Your submission must contain the team's RMarkdown file for the final report and a copy of your team's presentation slides. The RMarkdown report file must knit to HTML and PDF without error.
 
@@ -122,11 +125,11 @@ After confirming that all files are up-to-date, do the following steps:
 
 1.  Click the *Pull Requests* tab near the top of the page.
 2.  Click the green button that says "New pull request".
-3.  Click the dropdown menu button labeled "base:", and select the option `starting`.
+3.  Click the dropdown menu button labeled "base:", and select the option `grading`.
 4.  Confirm that the dropdown menu button labeled "compare:" is set to `master`.
 5.  Click the green button that says "Create pull request".
 6.  Give the *pull request* the following title: `Submission: Midterm Project, First and Last Names of Group Members`, filling in the names of the group members where `First and Last Names of Group Members` is written.
-7.  In the messagebox, write: `Our group's midterm report and presentation slides are ready for grading @jkglasbrenner`.
+7.  In the messagebox, write: `Our group's midterm report and presentation slides are ready for grading @instructor-username`.
 8.  Click "Create pull request" to lock in your submission.
 
 Cheatsheets

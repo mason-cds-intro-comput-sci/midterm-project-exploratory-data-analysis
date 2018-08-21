@@ -8,9 +8,10 @@ R										=		R
 RSCRIPT									=		Rscript
 ROPTS									=		--slave
 
-HTML									=		midterm_report.html
-PDF										=		midterm_report.pdf
-MD										=		midterm_report.md
+RMD_FILENAME							=		midterm_report
+HTML									=		$(RMD_FILENAME).html
+PDF										=		$(RMD_FILENAME).pdf
+MD										=		$(RMD_FILENAME).md
 
 HTML_OUTPUT								=		html_document
 PDF_OUTPUT								=		pdf_document
@@ -20,9 +21,9 @@ HTML_EXT								=		%.html : %.Rmd
 PDF_EXT									=		%.pdf : %.Rmd
 MD_EXT									=		%.md : %.Rmd
 
-ALL_FILES								=		$(HTML)							\
-												$(PDF)							\
-												$(MD)
+ALL_FILES								=		$(PDF)							\
+												$(MD)							\
+												$(HTML)
 
 CLEAN_FILES								=		*_files/						\
 												*_cache/						\
